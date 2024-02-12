@@ -1,0 +1,16 @@
+name: PIV Comformance Build
+
+on:
+  pull_request:
+	  type: [ closed ]
+    branche: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run the Do It Script
+        run: ./doit.sh
