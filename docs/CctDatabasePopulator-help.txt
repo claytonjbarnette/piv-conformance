@@ -13,7 +13,7 @@ pip install xlrd
 pip install xlwt
 pip install xlsxwriter
  
-Geoff:
+Geoff
  
 On Thu, Apr 11, 2019 at 5:32 PM Geoff Beier <geoff@redhoundsoftware.com> wrote:
 Here are db and sql files from the sheet.
