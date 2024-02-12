@@ -2,8 +2,8 @@ name: PIV Comformance Build
 
 on:
   pull_request:
-	  type: [ closed ]
-    branche: [ main ]
+	types: [ closed ]
+    branches: [ master ]
 
 jobs:
   build:
